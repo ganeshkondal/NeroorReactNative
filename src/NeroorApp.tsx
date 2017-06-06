@@ -11,16 +11,16 @@ import {
 } from 'react-native';
 /** Custom component imports */
 
-import NeroorApp from './NeroorApp';
+import Login from './login/login';
 
-export default class NeroorAppAndroid extends React.Component<object, object> {
+export default class NeroorApp extends React.Component<object, object> {
   render() {
     return (
-      <NeroorApp/>
+      <Login/>
     );
   }
 }
 
 
 
-AppRegistry.registerComponent('NeroorAppAndroid', () => NeroorAppAndroid);
+AppRegistry.registerComponent('NeroorApp', () => NeroorApp);
