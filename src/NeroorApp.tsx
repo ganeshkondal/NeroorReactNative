@@ -1,6 +1,8 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * Actual neroor application that is going to be used by Doctors. 
+ * This app is the starting point; and gets included by index.ios.tsx and index.android.tsx
+ * 
+ * @author Ganesh Kondal
  * @flow
  */
 

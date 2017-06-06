@@ -19,7 +19,7 @@ export default class  Label extends React.Component<Props, State>  {
     render(){ 
         return (
             <View style={styles.labelContainer}>
-               <Text> {this.props.name}</Text>
+               <Text style={styles.textLabel}> {this.props.name}</Text>
             </View>
         );
     } // render()
@@ -28,5 +28,11 @@ export default class  Label extends React.Component<Props, State>  {
 const styles = StyleSheet.create({
     labelContainer: {
         marginBottom: 20
+    },
+    textLabel: {
+        fontSize: 10,
+        fontFamily: 'Verdana',
+        marginBottom: 10,
+        color: '#595856'
     }
 });
