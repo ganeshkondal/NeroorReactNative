@@ -18,7 +18,7 @@ import Login from './login/login';
 export default class NeroorApp extends React.Component<object, object> {
   render() {
     return (
-      <Login/>
+      <Login/> 
     );
   }
 }

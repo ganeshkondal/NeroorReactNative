@@ -27,10 +27,10 @@ export default class  Label extends React.Component<Props, State>  {
 
 const styles = StyleSheet.create({
     labelContainer: {
-        marginBottom: 20
+        marginBottom: 0
     },
     textLabel: {
-        fontSize: 10,
+        fontSize: 12,
         fontFamily: 'Verdana',
         marginBottom: 10,
         color: '#595856'
